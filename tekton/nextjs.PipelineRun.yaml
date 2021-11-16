@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
-  generateName: nextjs-pipeline-run-
+  generateName: jklos-nextjs-pipeline-run-
 spec:
   serviceAccountName: build-bot
   params:

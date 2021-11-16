@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
-  name: nexjs-pipeline
+  name: nextjs-pipeline
 spec:
   params:
     - name: app-name
