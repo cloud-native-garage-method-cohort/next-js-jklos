@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: next-js-app
+  name: nextjs-app
 spec:
   replicas: 1
   selector:
@@ -19,8 +19,8 @@ spec:
       dnsPolicy: ClusterFirst
       schedulerName: default-scheduler
       containers:
-      - name: next-js-app
-        image: quay.io/juliaklos/next-app
+      - name: nextjs-app
+        image: quay.io/juliaklos/next-app:e4d395716fbdcdd158817b23b2e5a2d4ecf54b96 
         ports:
         - name: http
           protocol: TCP
