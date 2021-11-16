@@ -6,5 +6,8 @@ resources:
 - deploy.Task.yaml
 - nextjs.Pipeline.yaml
 - quayio.Secret.yaml
+- git-credentials.Secret.yaml
+- save-configuration.Task.yaml
 - quayio.ServiceAccount.yaml
 - webhook-trigger.EventListener.yaml
+- production-repository.ConfigMap.yaml
